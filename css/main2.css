@@ -1,0 +1,140 @@
+/**{outline: 1px solid red;}*/
+.list-inline img{margin: auto; width: 28px;/*  z-index:9999;*/ background-color: #E53B3B; border-radius: 50%;}
+.list-inline>li{padding-left: 5px;padding-right: 0px;}
+.list-inline img:hover{background-color: rgb(50,57,70); border-radius: 50%;}
+.list-inline {margin-bottom: 0px;  padding: 5px; float: right;margin-right: 100px;}
+
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+/*------------------mennu----------*/
+.logotipo{margin-left: 80px;}
+.section-hero{margin-top: -90px;}
+.menu{background-color:rgb(50,57,70);}
+.menu ul a{font-size: 15px; /*font-family:'Fira Sans', sans-serif; font-style: medium;*/}
+.menu .caret{float: right;margin-top: 10px;margin-left: 5px;}
+.navbar-default{border-color: none;}
+.navbar-default{border-bottom:0px;}
+.navbar-default .navbar-nav>li>a {color:/*:rgb(251,65,65);*/ white;}
+.navbar-default .navbar-nav>li:hover{background-color: rgb(251,65,65);}
+.navbar-default .navbar-nav>li>a:hover{color: white;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background-color: rgb(251,65,65); color: white;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color: rgb(251,65,65); color: white;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color:rgba(251, 65, 65, 0.7);}
+
+/*------ HEADERR slider y cuadrosinfo -----*/
+body {padding-top: 85px; }
+#myCarousel .nav a small {display:block;}
+#myCarousel .nav a {border-radius:0px; color:white;}
+.carousel-caption{padding-bottom:150px;}
+#myCarousel .cuadros{background-color:rgba(251, 65, 65, 0.7); color: white;padding: 10px;}
+#myCarousel .filas{position: relative; margin-top: -126px;}
+#myCarousel img{width: 100%;}
+.section-info-header{padding-bottom: 1em;}
+
+/*--------------PROYECTOSSS----------*/
+.proyects2{background-image: url(../img/portada.jpg); font-size: cover; width: 100%;}
+.proyects2 .mostrar-esconder{background-color: rgba(0,0,0,0.7); font-size: cover; width: 100%;}
+.proyects2 .esconder-mostrar {padding: 2em 0em 3em 0em;}
+.proyects2 .esconder-mostrar .proyectos{margin: 1em auto;}
+.proyects2 .esconder-mostrar ul{list-style: none; width: 95%;}
+.proyects2 .esconder-mostrar .izquierda{float: left; padding: 0;}
+.proyects2 .esconder-mostrar .derecha{float: right; padding: 0;}
+.proyects2 .centro{background-color: rgba(189, 236, 182);}
+.proyects2 .mostrar-esconder a{text-decoration: none;}
+.proyects2 .mostrar-esconder h4 { font-size: 14px; color:white; font-weight: bold;}
+
+.proyects2 .capa1, .capa2, .capa3, .capa4, .capa5, .capa6,.capa7,.capa8{
+  height: 7em; 
+  background-color: #1D437F;
+  padding: 1.2em 0 1em 0;
+  margin-top: 0.5em;
+  color: #fff; }
+.proyects2 .capa1 i, .capa2 i, .capa3 i, .capa4 i, .capa5 i, .capa6 i,.capa7 i,.capa8 i{font-size: 2.5em; color:white;}
+.proyects2 .mensaje1, .mensaje2, .mensaje3, .mensaje4, .mensaje5, .mensaje6,.mensaje7,.mensaje8{display: none; height: 20em; margin: 2em auto; color: #fff;}
+.proyects2 .img{background-size: cover; background-position: center; width: 100%; height: 100%; border-radius: 0.5em;}
+.proyects2 .img1{background-image: url(../img/medicina.jpg);}
+.proyects2 .img2{background-image: url(../img/proyectos.JPG);}
+.proyects2 .img3{background-image: url(../img/produccion.JPG);}
+.proyects2 .img4{background-image: url(../img/industria.jpg);}
+.proyects2 .img5{background-image: url(../img/social.jpg);}
+.proyects2 .img6{background-image: url(../img/vivero.jpg);}
+.proyects2 .img7{background-image: url(../img/medicina.jpg);}
+.proyects2 .img8{background-image: url(../img/medicina.jpg);}
+.proyects2 li:hover{
+   -moz-transform:rotate(-5deg); 
+    -moz-box-shadow:10px 10px 20px #000000;
+    -webkit-transform:rotate(-5deg); 
+    -webkit-box-shadow:10px 10px 20px #000000;
+    transform:rotate(4deg); box-shadow:10px 10px 20px #000000; 
+    margin-left: 10px;
+    background-color: rgb(251, 65, 65);
+    border-radius: 1em;
+}
+
+
+/*---separador-about-------*/
+.separador{text-align: center;}
+.separador img{width: 60px;margin-top: -60px;}
+.separador hr{height: 3px; border: 0; background-color:rgb(251,65,65);}
+/*-------ABOUTT-------------*/
+.section-about{background-color: rgb(229,229,229); padding: 4em 0em;}
+.section-about img{margin: auto; width: 100%;}
+.section-about p{padding: 30px 0 15px 0;}
+
+/*------------auspiciadores_carousel 22-------*/
+.section-aliados{
+  background-color: rgb(251,65,65);/*background-image: url("../img/SLIDER FONDO 1.png");background-size: cover;*/
+  width: 100%;color: white;padding: 3em 0em;}
+.section-aliados h2{margin-bottom: 0em;}
+.section-aliados #media .thumbnail {padding: 4px; background-color: transparent;border: none;border-radius: 0px;}
+.carousel{padding: 0;}
+.media-carousel{padding: 3em 5em 0em 5em;}
+.media-carousel .carousel-control.left {
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 75px;}
+.media-carousel .carousel-control.right {
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 75px;}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators {right: 50%;top: auto;bottom: 0px;}
+/* Changes the colour of the indicators */
+/*.media-carousel .carousel-indicators li {background: #c0c0c0;}*/
+.media-carousel .carousel-indicators .active{background: #333333;}
+.media-carousel img{width: 230px;height: 100px}
+
+/*-----------Footer----------- */
+.footer2{background-color: #000;color: #fff;}
+.footer2 i{font-size: 25px; height: 25px; width: 25px; color: rgb(251,65,65); margin: auto;}
+.footer2 .fa-chevron-right{color: white;font-size: 13px; margin-right:-10px;}
+.footer2 .contacto2 hr{height: 1px; border: 0; background-color:rgb(251,65,65);}
+.footer2 .footer_menu a{color: white;}
+.contacto2{margin: 30px auto;}
+.contacto2 .comunic p{margin-top: 10px; margin-bottom: 10px;}
+.contacto2 .comunic p a{color:rgb(251,65,65); }
+.blanco-{height: 200px;}
+
+/*------footer finalll---*/
+.footer-final{background-color: rgb(50,57,70);; color: white; padding:0.5em;}
+.footer-final p{margin-bottom: 0px;}
+
+
+@media (max-width: 750px){
+  .logotipo{margin-left: 65px;}
+  .list-inline img{width: 37px;}
+  .list-inline>li{padding-left: 5px;}
+  #myCarousel .filas{position: relative; margin-top: 15px;}
+  .section-info-header .all_fondo{margin: 10px 0px 5px 0px;}
+  .proyects2 .esconder-mostrar .izquierda{margin: auto; float: none;}
+  .proyects2 .esconder-mostrar .derecha{margin: auto;float: none;}
+}

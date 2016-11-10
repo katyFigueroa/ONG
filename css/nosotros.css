@@ -1,0 +1,26 @@
+/**{outline: 1px solid red;}*/
+.imagen-hero{
+	background-image: url("../img/nosotros_personal.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+.imagen-hero .titulo{
+    color:rgb(21,56,116);
+    background-color: rgba(255,255,255,0.6);
+    width: 500px;
+    margin-top: 350px;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.section-content .contenedor{background-color: rgb(229,229,229);padding: 2em 0em 3em 0em;}
+.section-content h3{background-color: rgb(40, 46, 58); padding: 12px 2.5em; color: white;}
+.section-content .mision{padding: 20px;}
+.section-content .texto{padding: 1em 4em;}
+.section-content .lista{padding: 1em 3em;}
+@media (max-width: 750px){
+	.imagen-hero .titulo{width: 100%;}
+}

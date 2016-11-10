@@ -1,0 +1,66 @@
+/**{outline: 1px solid red;}*/
+@import url('https://fonts.googleapis.com/css?family=Roboto|Titillium+Web');
+font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+/*----menuu.-------*/
+.logotipo{margin-left: 80px;}
+.section-hero{margin-top: -90px;}
+.menu{background-color:rgb(50,57,70);}
+.menu ul a{font-size: 15px;}
+.menu .caret{float: right;margin-top: 10px;margin-left: 5px;}
+.navbar-default{border-color: none;}
+.navbar-default{border-bottom:0px;}
+.navbar-default .navbar-nav>li>a {color: white;}
+.navbar-default .navbar-nav>li:hover{background-color: rgb(251,65,65);}
+.navbar-default .navbar-nav>li>a:hover{color: white;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background-color: rgb(251,65,65); color: white;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color: rgb(251,65,65); color: white;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color:rgba(251, 65, 65, 0.7);}
+#navbarCollapse{margin-top: 38px;}
+
+.imagen-hero{
+	background-image: url(../img/portada.jpg);                /*url("../img/portada.jpg");*/
+	background-size: cover;
+	width: 100%;
+	height: 530px;
+	position: relative;
+}
+.imagen-hero .titulo{
+    color:white;
+    background-color: rgba(40,46,58,0.9);
+    /*width: 100%;*/
+    margin-top: 60px;
+    /*margin: auto;*/
+    padding: 20px;
+    position: absolute;
+    text-align: center;}
+h2{font-family: 'Titillium Web', sans-serif;}
+
+/*.imagen-hero .titulo .mapa{width: 100%;}
+.imagen-hero .titulo input{width: 100%;padding: 7px; border-radius: 20px;border: 1px solid #337ab7; color: black; background:white;}
+.imagen-hero .titulo textarea{width: 100%; height:120px;padding: 7px; border-radius: 20px;border: 1px solid #337ab7;margin-bottom: 10px;color: black;background: white;}
+.imagen-hero .titulo button{border-radius: 20px;width: 90px;}
+.imagen-hero .contacto i{font-size: 35px; color:#337ab7; ;margin-top: 20px;width: 45px;text-align: center;}
+.imagen-hero .contacto .pull-left{width: 100%;font-weight: bold;}
+.imagen-hero .contacto.pull-left ._4{margin-bottom: 30px;}
+.imagen-hero .contacto{margin-left: 50px;}*/
+
+.section-content .contenedor{background-color: rgb(229,229,229);padding: 2em 0em 0em 0em;}
+.section-content .file_contact{margin-bottom: 20px;}
+.section-content .formulario {margin: 0px 15px;}
+.section-content .formulario input{width: 100%;padding: 7px; border-radius: 5px;border: 1px solid gray;}
+.section-content .formulario textarea{width: 100%;padding: 7px; border-radius: 5px; border: 1px solid gray; margin-bottom: 10px;}
+.section-content .formulario button{border-radius: 20px;width: 90px;}
+.section-content .file_mapa{margin-right:15px, margin-left:15px;}
+.section-content h2{background-color: rgb(40, 46, 58); padding: 12px 0px; color: white;}
+.section-content iframe{width: 100%;}
+.section-content i{font-size: 50px; color: white;margin-top: 25px;}
+.section-content .contacto{padding-bottom: 0px; margin-top:25px;}
+.section-content .contacto .icono{width: 100px;height:100px;background-color:rgb(40,46,58);border-radius:50%;margin: auto;}
+
+
+@media (max-width: 750px){
+	.imagen-hero .titulo{width: 100%;}
+	.section-content .file_contact{margin-bottom: 20px; margin-left:0px;margin-right:0px;}	
+}

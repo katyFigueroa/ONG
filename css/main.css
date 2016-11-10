@@ -1,0 +1,115 @@
+/**{outline: 1px solid red;}*/
+/*.fondo{background-color: #8999A8;}*/
+.logo img{
+  padding: 15px;
+  width: 150px;
+}
+/*.img-hero{
+	background-image: url("../img/portada.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}*/
+/*.oscuro{
+	background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;*/
+/*}*/
+
+.fondo_menu{
+  background-color: #9a001a;
+}
+.section-programs.foto-program{
+	width: 100%;
+}
+.section-programs{
+  padding: 40px 0;
+}
+
+
+/*-----slider----*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; height: 600px;}
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+
+/*fin slider---*/
+
+
+/*---menuuu---*/
+.fondo_menu{
+position: absolute;
+width: 100%;
+z-index:9999;
+}
+._menu{padding: 0px 0 0 120px;}
+#menu {
+  overflow:hidden;
+}
+#menu a{
+  text-decoration:none;
+  color:#fff;
+}
+#menu li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 15px 20px;
+  border-right: 1px solid #ddd;
+  background: #9a001a;
+  color: #fff;
+  text-align: center;
+  min-width: 132px;
+}
+#menu .inicio_me{border-left: 1px solid #ddd;} 
+#menu li:hover {
+  cursor:pointer;
+  background-color: black;
+}
+#menu li img{
+  margin: 0px 10px -2px 0px;
+  padding: 0px 0px 2px 5px;
+}
+#menu ul{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 11px;
+  max-width: 132px;
+  overflow: hidden;
+}
+#menu ul li {
+  background:#9a001a;
+}
+@media screen and (max-width: 580px) {
+#menu li {
+    float:none;
+}
+#menu ul {
+  position: relative;
+}
+  
+#menu ul li {
+  border:none;
+}
+}
+
+/*---fin menu---*/
