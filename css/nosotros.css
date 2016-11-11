@@ -21,6 +21,15 @@
 .section-content .mision{padding: 20px;}
 .section-content .texto{padding: 1em 4em;}
 .section-content .lista{padding: 1em 3em;}
+
+
+.section .wp-traveladvisor .destination-fancy ._text h3{font-size: 20px; }
+.section .wp-traveladvisor .destination-fancy ._text .title{margin-left: -30px;}
+.section .wp-traveladvisor .destination-fancy .valores p{margin-bottom: 8px;}
+.wp-traveladvisor .destination-fancy .over-preview .cs-photo-list li{margin-right: 3px;}
+.wp-traveladvisor .cs-destination-listing.destination-fancy ._list li{width: 24%;}
+
+
 @media (max-width: 750px){
 	.imagen-hero .titulo{width: 100%;}
 }
