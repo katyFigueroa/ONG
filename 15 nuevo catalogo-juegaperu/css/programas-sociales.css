@@ -1,0 +1,43 @@
+
+/**{outline: 1px solid red;}*/
+
+.nopadding{
+  padding: 0;
+}
+.nomargin{
+  margin-left: 0;
+  margin-right: 0;
+}
+.reseña{
+  text-align: right;
+  line-height: 2em;
+  padding: 3em;
+  background-color: #f2f2f2;
+}
+.reseña img{
+  height: 250px;
+}
+.productos{
+  /*background-color: rgb(50, 57, 70);*/
+  margin-top: 0.5em;
+}
+.titulo{
+  padding: 1em;
+  color: rgb(50, 57, 70);
+  width: 100%;
+}
+.subtitulo{
+  background-color: rgb(251, 61, 61);
+  color: #fff;
+  border-left: 15px solid #fff;
+  border-right: 15px solid#fff;
+  border-top: 5px solid #fff;
+}
+
+.panel-default>.panel-heading{
+  background-color: rgb(50, 57, 70);
+  color: #fff;
+}
+.ejemplo{
+  border: 1px solid rgb(251, 61, 61);
+}
