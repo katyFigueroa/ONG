@@ -3,114 +3,46 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Titillium Web', sans-serif;
 font-family: 'Fira Sans', sans-serif;
-/*----menuu.-------*/
-.logotipo{margin-left: 80px;}
-.section-hero{margin-top: -90px;}
-.menu{background-color:rgb(50,57,70);}
-.menu ul a{font-size: 15px;}
-.menu .caret{float: right;margin-top: 10px;margin-left: 5px;}
-.navbar-default{border-color: none;}
-.navbar-default{border-bottom:0px;}
-.navbar-default .navbar-nav>li>a {color: white;}
-.navbar-default .navbar-nav>li:hover{background-color: rgb(251,65,65);}
-.navbar-default .navbar-nav>li>a:hover{color: white;}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background-color: rgb(251,65,65); color: white;}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color: rgb(251,65,65); color: white;}
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color:rgba(251, 65, 65, 0.7);}
-#navbarCollapse{margin-top: 38px;}
 
-.title{background-color: rgb(229,229,229);} 
-h2{color: rgba(40,46,58,0.9); margin-bottom: 20px; font-size: 32px; font-family:'Fira Sans', sans-serif; }
+body{font-family: 'Roboto', sans-serif; }
+.imagen-hero{
+  background-image: url("../img/fachada.jpg");
+  /*background-size: cover;*/
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
 
-/*---------SLIDER---------------*/
-#custom_carousel .item  .top {overflow:hidden; max-height:500px;}
-#custom_carousel .item {color:#000; background-color:#fff; overflow:hidden}
-.slider-contact #custom_carousel ._1{ background-image: url(../img/fachada.jpg); background-size:cover; width:100%;height:450px; margin-bottom: 15px;}
-.slider-contact #custom_carousel ._2{ background-image: url(../img/fachada.jpg); background-size:cover; width:100%;height:450px;margin-bottom: 15px;color:#fff;}
-/*.slider-contact #custom_carousel ._1 .fondo1{ background: rgba(0,0,0,0.6); height: 370px;width: 100%;margin-top:40px;padding: 5px 50px;}*/
-/*.slider-contact #custom_carousel ._2 .fondo2{ background: rgba(0,0,0,0.5); height: 370px;width: 100%;margin-top:40px;padding: 5px 50px;}*/
-.slider-contact #custom_carousel .oscuro{ background: rgba(0,0,0,0.5); height: 450px;width: 100%;}
-.slider-contact #custom_carousel ._2 .lista-redes ul{padding-left:0px;}
-.slider-contact #custom_carousel ._2 .lista-redes li{display: inline-block; padding: 10px;}
-.slider-contact #custom_carousel ._2 .lista-redes i{font-size: 25px; margin-top:5px; }
-.slider-contact #custom_carousel ._2 .lista-redes div{width:40px;height:40px;border-radius:50%; border: 2px solid #337ab7;}
-#custom_carousel .izq {
-  position:absolute;
-  left: -25px;
-  top:40%;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px;}
-/* Next button  */
-#custom_carousel .der {
-  position:absolute;
-  right: -25px !important;
-  top:40%;
-  left:inherit;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px;}
-#custom_carousel .controls{overflow:hidden; padding:0; margin:0; white-space: nowrap; text-align: center; position: relative; background:#fff;border:0;}
-#custom_carousel .controls .nav{
-    padding:0;
-    margin:0;
-    white-space: nowrap;
-    text-align: center;
-    position: relative;
-    background:rgb(229,229,229);
-    width: auto;
-    border: 0;}
-#custom_carousel .controls .colum{padding: 5px 0px;margin-right: -55px;}
-#custom_carousel .controls li {transition: all .5s ease; display: inline-block; max-width: 150px; height: 90px; opacity:.5;}
-#custom_carousel .controls li a{ padding:0;}
-#custom_carousel .controls li img{width:100%; height:auto}
-#custom_carousel .controls li.active { background-color:#fff; opacity:1;}
-#custom_carousel .controls a small {overflow:hidden; display:block; font-size:10px; margin-top:5px; font-weight:bold}
-
-.slider-contact .formulario{margin-top:60px; color: white; font-family: 'Titillium', sans-serif;}
-.slider-contact .formulario input{width: 100%;padding: 7px; border-radius: 20px;border: 1px solid white; color: #000;}
-.slider-contact .formulario textarea{width: 100%;height: 100px; padding: 7px; border-radius: 20px; border: 1px solid white; margin-bottom: 10px;color: #000;}
-.slider-contact .formulario button{border-radius: 20px;width: 90px;margin-left: 250px; background: transparent; border:2px solid #337ab7;color:#337ab7; }
-
-.slider-contact .contacto i{font-size: 50px; color:white ;margin-top: 20px;}
-.slider-contact .contacto{padding-bottom: 0px; margin-top:60px; color: white; font-family: 'Titillium', sans-serif;}
-.slider-contact .contacto .icono{width: 100px;height:100px;border:4px solid white;border-radius:50%;margin: auto;}
-.slider-contact .columna10{padding-right: 0px; padding-left:0px;}
-.slider-contact .columna2{padding-right: 0px; padding-left:0px;}
-.slider-contact {background-color:rgb(229,229,229);padding-bottom: 5px;}
-.section-contenido{padding: 15px 0px;background-color: rgb(229,229,229);}
-/*----------FIN SLIDER------------*/
-
-
-
-.section-content {margin-top: 700px;}
-.section-content .contenedor{background-color: rgb(229,229,229);padding: 2em 0em 0em 0em;}
-.section-content .file_contact{margin-bottom: 20px;}
-.section-content .formulario {margin: 0px 15px;}
-.section-content .formulario input{width: 100%;padding: 7px; border-radius: 5px;border: 1px solid gray;}
-.section-content .formulario textarea{width: 100%;padding: 7px; border-radius: 5px; border: 1px solid gray; margin-bottom: 10px;}
-.section-content .formulario button{border-radius: 20px;width: 90px;}
+.section-content .contenedor{background-color: rgb(229,229,229);padding: 1em 0em 0em 0em;}
+.section-content .file_contact{ margin: 0px 15px 20px;}
+.section-content h1{color:rgb(50,57,70);font-weight: 100; font-size: 40px; line-height: 1; text-transform: uppercase; text-shadow: 0 1px 1px #fff;}
+.section-content .formulario input{width: 100%;padding: 8px 11px;border: 1px solid gray;}
+.section-content .formulario textarea{width: 100%;padding: 8px 11px; border: 1px solid gray; margin-bottom: 10px;}
+.section-content .formulario .submit-btn{float: right !important;font-weight: 400; width: 100px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    background: rgb(40,57,70);
+    cursor: pointer;}
 .section-content .file_mapa{margin-right:15px, margin-left:15px;}
-.section-content h2{background-color: rgb(40, 46, 58); padding: 12px 0px; color: white;}
 .section-content iframe{width: 100%;}
-.section-content i{font-size: 50px; color: white;margin-top: 25px;}
-.section-content .contacto{padding-bottom: 0px; margin-top:25px;}
-.section-content .contacto .icono{width: 100px;height:100px;background-color:rgb(40,46,58);border-radius:50%;margin: auto;}
+.section-content .fa{font-size: 30px; color:rgb(40,57,70); ;margin-top: 10px; width: 35px;}
+.section-content .contacto{padding-bottom:0px; margin:150px 100px 0px;}
 
 
 @media (max-width: 750px){
 	.imagen-hero .titulo{width: 100%;}
 	.section-content .file_contact{margin-bottom: 20px; margin-left:0px;margin-right:0px;}
 
-    .slider-contact	#custom_carousel .controls .nav ul{
-        display: inline-block;
-    }
+  .slider-contact	#custom_carousel .controls .nav ul{display: inline-block;}
 }
+@media only screen and (min-width: 290px ) and (max-width: 991px){
+  .section-content .contacto{ margin:50px 0px 10px;}
+}
+@media only screen and (min-width: 990px ) and (max-width: 1199px){
+  .section-content .contacto{ margin:120px 0px 10px 50px;}
+}
+
+
+

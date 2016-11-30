@@ -14,11 +14,28 @@
     padding: 20px;
     position: absolute;
     text-align: center;
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    text-shadow: 0 1px 1px #000;
 }
+.imagen-hero .titulo .fa{font-size: 25px;}
+.imagen-hero .lado-derecha-arriba:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 500px;
+          width: 0;
+          height: 0;
+          border-width: 35px;
+          border-style: solid;
+          border-color:  transparent transparent transparent rgb(229,229,229);
+            }
 
-.section-content .contenedor{background-color: rgb(229,229,229);padding: 2em 0em 3em 0em;}
-.section-content h3{background-color: rgb(40, 46, 58); padding: 12px 2.5em; color: white;}
-.section-content .text{padding: 1em 2em 2em 2em; margin-bottom: 0px;}
+.section-content .contenedor{background-color: rgb(229,229,229);padding: 2em 0em 3em 0em; font-family:'Roboto', sans-serif;}
+.section-content h3{background-color: rgb(67, 86, 99); padding: 12px 1.1em; color: white;
+  font-family:'Roboto', sans-serif; font-size: 25px; font-weight: 500; text-shadow: 0 1px 1px #000;}
+.section-content .text{padding: 1em 2em 2em 2em; margin-bottom: 0px; }
 .section-content .proyectos{padding: 0px 20px 10px 20px;}
 .ih-item {
   position: relative;
@@ -34,11 +51,10 @@
 .ih-item img {width: 100%; height: 100%;}
 .ih-item.square {
   position: relative;
-  width: 250px;
-  height: 340px;
   margin: auto;
   border: 4px solid #fff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);}
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom:5px;}
 .ih-item.square .info {
   position: absolute;
   top: 0;
@@ -68,6 +84,7 @@
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;}
 .proyectos h4 {
+  font-family:'Roboto', sans-serif;
   text-transform: uppercase;
   color: #fff; font-size: 16px;
   text-align: center;
@@ -159,4 +176,11 @@
 
 @media (max-width: 750px){
 	.imagen-hero .titulo{width: 100%;}
+}
+@media only screen and (min-width: 290px ) and (max-width: 490px){
+  .ih-item.square.effect6 .info button {margin-top: 160px;}
+  .proyectos h4{top: 0px;}
+}
+@media only screen and (min-width: 300px ) and (max-width: 750px){
+  .imagen-hero .lado-derecha-arriba:before{visibility:hidden;}
 }
